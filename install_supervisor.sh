@@ -1,5 +1,8 @@
 #/bin/bash
 
+echo "Installing pip"
+sudo apt-get install python-pip
+
 echo "Installing supervisor"
 sudo pip install supervisor
 
